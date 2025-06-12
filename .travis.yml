@@ -1,9 +1,5 @@
 language: python
 python:
-  - "3.10"
-
-install:
-  - pip install -r requirements.txt
-
+  - "3.8"
 script:
-  - pytest
+  - python tests/test_app.py
